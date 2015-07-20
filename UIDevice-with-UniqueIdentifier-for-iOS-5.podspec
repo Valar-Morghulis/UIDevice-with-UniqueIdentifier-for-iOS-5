@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :https://github.com/gekitz/UIDevice-with-UniqueIdentifier-for-iOS-5.git"}
+  s.source       = { :git => "https://github.com/gekitz/UIDevice-with-UniqueIdentifier-for-iOS-5.git"}
 
 
 s.source_files = 'Classes/*.{h,m}'
